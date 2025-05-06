@@ -1,0 +1,29 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(quantifier-nbp-font/QuantifierNbp-2d6X.ttf);
+  }
+
+
+body {
+    font-family: myFirstFont;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.301), purple) !important;
+    background-size: cover;
+}
+
+.custom-navbar {
+    color: white !important;
+    font-size: 1.5rem;
+    border-bottom-style: solid;
+  }
+
+  .navbar-brand {
+    color: white !important;
+    font-size: 2rem;
+  }
+
+.card {
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+}
